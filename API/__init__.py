@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restx import Api
-from .config.config import config_dict
+from API.config.config import config_dict
 from flask_jwt_extended import JWTManager
 from .utils import db
 from .auth.views import student_namespace as auth_namespace
