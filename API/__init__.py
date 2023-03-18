@@ -18,7 +18,7 @@ def create_app(config=config_dict['dev']):
             'type': 'apiKey',
             'in': 'header',
             'name': 'Authorization',
-            'description': 'Enter your Bearer Token'
+            'description': 'Enter your Bearer Token before accessing the application'
         }
     }
     api = Api(app,
